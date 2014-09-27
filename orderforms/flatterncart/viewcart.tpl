@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="templates/orderforms/{$carttpl}/style.css" />
 <script type="text/javascript" src="includes/jscript/statesdropdown.js"></script>
 {literal}
 <script>
