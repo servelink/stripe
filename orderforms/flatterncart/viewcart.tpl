@@ -208,7 +208,7 @@
         <div class="col-lg-4">
           <form method="post" class="form-inline" action="{$smarty.server.PHP_SELF}?a=view">
             <input type="hidden" name="validatepromo" value="true" />
-            {if $promotioncode}{$promotioncode} - {$promotiondescription}<a href="{$smarty.server.PHP_SELF}?a=removepromo"></a>{else}
+            {if $promotioncode}{$promotioncode} - {$promotiondescription}<a href="{$smarty.server.PHP_SELF}?a=removepromo"> <i class="fa fa-lg fa-times" style="color:#d9534f"></i></a>{else}
             <div class="input-group">
               <input type="text" class="form-control" name="promocode" placeholder="{$LANG.orderpromotioncode}">
               <span class="input-group-btn"><button type="submit" class="btn btn-default" value="{$LANG.orderpromovalidatebutton}" /><span class="glyphicon glyphicon-chevron-right"></span>
